@@ -24,22 +24,22 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      content: "123 Trade Center, Business District, City 10001",
+      content: "King Faisal Branch Rd, Al Mahjar District, Jeddah 22511, Saudi Arabia",
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+1 (555) 123-4567",
+      content: "+966 53 804 3043",
     },
     {
       icon: Mail,
       title: "Email",
-      content: "info@tradecoreintl.com",
+      content: "Info@tradecoreinternational.com",
     },
     {
       icon: Clock,
       title: "Business Hours",
-      content: "Mon - Fri: 9:00 AM - 6:00 PM",
+      content: "Saturday - Thursday: 6:00 AM - 6:00 PM",
     },
   ];
 

@@ -16,8 +16,14 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Thank you for your inquiry! We'll get back to you soon.");
-    setFormData({ name: "", email: "", company: "", message: "" });
+    
+    const subject = encodeURIComponent(`Inquiry from ${formData.name}${formData.company ? ` - ${formData.company}` : ''}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company || 'N/A'}\n\nMessage:\n${formData.message}`
+    );
+    
+    window.location.href = `mailto:Info@tradecoreinternational.com?subject=${subject}&body=${body}`;
+    toast.success("Opening your email client...");
   };
 
   const contactInfo = [

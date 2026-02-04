@@ -45,7 +45,7 @@ const Services = () => {
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             From sourcing to delivery, we provide end-to-end solutions for your 
-            confectionery import, export, and distribution needs.
+            chocolates and sweets import, export, and distribution needs.
           </p>
         </div>
 

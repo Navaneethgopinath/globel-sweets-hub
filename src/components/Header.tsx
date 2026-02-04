@@ -37,7 +37,9 @@ const Header = () => {
           ))}
         </nav>
 
-        <Button className="hidden md:flex">Get Quote</Button>
+        <a href="mailto:Info@tradecoreinternational.com?subject=Quote%20Request&body=Hello%2C%20I%20would%20like%20to%20request%20a%20quote%20for%3A%0A%0AProduct%3A%20%0AQuantity%3A%20%0ACompany%3A%20%0A%0AThank%20you." className="hidden md:flex">
+          <Button>Get Quote</Button>
+        </a>
 
         {/* Mobile Navigation */}
         <Sheet>
@@ -57,7 +59,9 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <Button className="mt-4">Get Quote</Button>
+              <a href="mailto:Info@tradecoreinternational.com?subject=Quote%20Request&body=Hello%2C%20I%20would%20like%20to%20request%20a%20quote%20for%3A%0A%0AProduct%3A%20%0AQuantity%3A%20%0ACompany%3A%20%0A%0AThank%20you.">
+                <Button className="mt-4 w-full">Get Quote</Button>
+              </a>
             </nav>
           </SheetContent>
         </Sheet>

@@ -53,7 +53,7 @@ const Products = () => {
             Premium Confectionery Range
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Discover our extensive collection of quality sweets and confectionery products 
+            Discover our extensive collection of premium chocolates and sweets 
             sourced from trusted manufacturers around the globe.
           </p>
         </div>

@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import aboutHero from "@/assets/about-hero.jpg";
 
 const About = () => {
   const features = [
@@ -42,14 +43,12 @@ const About = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <span className="text-5xl">🍬</span>
-                </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">Quality First</h3>
-                <p className="text-muted-foreground">Every product meets our rigorous quality standards</p>
-              </div>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src={aboutHero} 
+                alt="Tradecore International warehouse and distribution center" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-primary/10 rounded-2xl -z-10"></div>
           </div>
